@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Автомагазин</title>
+  </head>
+  <body style="text-align: center">
+    <form action="https://fom.in.ua/echo">
+      <div class="container">
+        <fieldset style="text-align-last: center; margin-left: 30%; margin-right: 30%">
+          <legend>
+            <h2>Регистрация</h2>
+          </legend>
+          <div>
+            <label for="text">
+              <b>Логин:</b> 
+              <span style="color: red">*</span>
+              <input
+                type="text"
+                id="text"
+                name="text"
+                placeholder="Логин"
+                required
+              />
+            </label>
+          </div>
+          <div>
+            <label for="password">
+             <b>Пароль:</b>
+              <span style="color: red">*</span>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Пароль"
+                required
+              />
+            </label>
+          </div>
+          <div>
+            <label for="psw-repeat">
+             <b>Подтверждение пароля:</b>
+              <span style="color: red">*</span>
+              <input
+                type="password"
+                id="psw-repeat"
+                name="psw-repeat"
+                placeholder="Подтверждение пароля"
+                required
+              />
+            </label>
+          </div>
+          <div>
+            <button style="margin-top: 20px" type="submit" class="registerbtn">
+              Зарегистрироваться
+            </button>
+          </div>
+        </fieldset>
+      </div>
+    </form>
+  </body>
+</html>
